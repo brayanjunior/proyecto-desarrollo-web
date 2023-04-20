@@ -1,0 +1,114 @@
+body *{
+    font-family: cursive !important;
+}
+
+.navbar{
+    padding: .5rem !important;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content:  space-between;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand, .search{
+        display: none;
+    }
+
+    
+}
+
+.bg-success-lighter{
+    background-color: #E9F8D8 !important;
+}
+
+.bg-info-lighter{
+    background-color: #abeafe !important;
+}
+
+.text-blue-light{
+    color: #BEE9F7;
+}
+
+.text-blue{
+    color: #2C86FF ;
+}
+
+.text-blue-dark{
+    color: #373BA4;
+}
+
+.carousel-control-next, .carousel-control-prev {
+
+    width: 10% !important;
+
+}
+
+.font-weight-bold{
+    font-weight: bold !important;
+}
+
+
+div.social-media-links {
+    background: #323b40;
+    overflow: hidden;
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  
+  
+  div.social-media-links h1{
+    margin-bottom: 0 !important;
+  }
+  footer	ul {
+      margin: 0;
+      padding: 0;
+    }
+    footer	li {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    footer	a {
+      border-bottom: 0px solid rgba(0,0,0,0.95);
+      border-radius: 4px;
+      box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0), 0 6px 8px rgba(0,0,0,0), 0 24px 24px rgba(0,0,0,0), 0 36px 36px rgba(0,0,0,0), 0 64px 64px rgba(0,0,0,0), 0 64px 128px rgba(0,0,0,0), 0 120px 0 rgba(0,0,0,0), 0 86px 8px 6px rgba(0,0,0,0),;
+      display: inline-block;
+      height: 30px;
+      padding: 20px;
+      position: relative;
+      transition: .2s ease-in;
+      width: 30px;
+    }
+    
+      
+    a:hover {
+      transform: translateY(-4px);
+      color: white !important;
+      box-shadow: inset 0 -3px 0 0 rgba(0,0,0,0.1), 
+      0 6px 8px rgba(0,0,0,0.05), 0 24px 24px rgba(0,0,0,0.05), 
+      0 36px 36px rgba(0,0,0,0.05), 0 64px 64px rgba(0,0,0,0.15),
+      0 64px 128px rgba(0,0,0,0.15), 0 86px 8px 6px fadeout(#0ebac7, 75),
+       0 83px 4px 0px fadeout(#0ebac7, 5);
+    }
+
+    
+    .text-green{
+        color: #0F780F;
+      }
+    
+      .text-green-lighten1{
+        color: #73B542;
+      }
+      .text-green-lighten2{
+        color: #6BAE0A;
+      }
+      .text-green-lighten3{
+        color: #80D504;
+      }
+      .text-green-lighten4{
+        color: #BEF459;
+      }
+      .text-green-darken1{
+        color: #2B9D41;
+      }
